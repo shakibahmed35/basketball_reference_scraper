@@ -32,16 +32,6 @@ def getcsv(current_url, lol):
 
     return stats_list[4:]
 
-# sl = getcsv(2021, "l")
-# f = open("text.csv", "w")
-# writer = csv.writer(f)
-# headers = sl.pop(0).split(',')
-# writer.writerow(headers)
-# print(headers)
-# for row in sl:
-#     writer.writerow(row.split(','))
-# f.close()
-
 stat = str(sys.argv[1])
 year = 1980
 while year <= 2021:
