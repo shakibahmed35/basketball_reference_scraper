@@ -1,4 +1,3 @@
-from os import stat
 import requests
 from bs4 import BeautifulSoup
 import csv
@@ -23,22 +22,16 @@ while year <= 2021:
     headers = []
     for element in players[0].find_all():
         headers.append(element.get("data-stat"))
-
-    headers.remove('ranker')
-    headers.remove(None)
-    headers.remove('DUMMY')
     writer.writerow(headers)
+
 
     for player in players:
         all_stats = player.find_all()
         stats = []
         for element in all_stats:
-            if element.get("data-stat") == None or element.get("data-stat") == 'DUMMY' or element.get("data-stat") == 'ranker':
-                continue
             stats.append(element.text)
         writer.writerow(stats)
 
     f.close()
     year += 1
 
-    
