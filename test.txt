@@ -1,0 +1,856 @@
+<div class="table_container" id="div_box-UTA-game-basic">
+ <table class="sortable stats_table" data-cols-to-freeze=",1" id="box-UTA-game-basic">
+  <caption>
+   Utah Jazz (0-1) Table
+  </caption>
+  <colgroup>
+   <col/>
+   <col/>
+   <col/>
+   <col/>
+   <col/>
+   <col/>
+   <col/>
+   <col/>
+   <col/>
+   <col/>
+   <col/>
+   <col/>
+   <col/>
+   <col/>
+   <col/>
+   <col/>
+   <col/>
+   <col/>
+   <col/>
+   <col/>
+  </colgroup>
+  <thead>
+   <tr class="over_header">
+    <th>
+    </th>
+    <th aria-label="" class="over_header center" colspan="19" data-stat="header_tmp">
+     Basic Box Score Stats
+    </th>
+   </tr>
+   <tr>
+    <th aria-label="Starters" class="poptip sort_default_asc center" data-stat="player" scope="col">
+     Starters
+    </th>
+    <th aria-label="Minutes Played" class="poptip center" data-over-header="Basic Box Score Stats" data-stat="mp" data-tip="Minutes Played" scope="col">
+     MP
+    </th>
+    <th aria-label="Field Goals" class="poptip center" data-over-header="Basic Box Score Stats" data-stat="fg" data-tip="Field Goals" scope="col">
+     FG
+    </th>
+    <th aria-label="Field Goal Attempts" class="poptip center" data-over-header="Basic Box Score Stats" data-stat="fga" data-tip="Field Goal Attempts" scope="col">
+     FGA
+    </th>
+    <th aria-label="Field Goal Percentage" class="poptip center" data-over-header="Basic Box Score Stats" data-stat="fg_pct" data-tip="Field Goal Percentage" scope="col">
+     FG%
+    </th>
+    <th aria-label="3-Point Field Goals" class="poptip center" data-over-header="Basic Box Score Stats" data-stat="fg3" data-tip="3-Point Field Goals" scope="col">
+     3P
+    </th>
+    <th aria-label="3-Point Field Goal Attempts" class="poptip center" data-over-header="Basic Box Score Stats" data-stat="fg3a" data-tip="3-Point Field Goal Attempts" scope="col">
+     3PA
+    </th>
+    <th aria-label="3-Point Field Goal Percentage" class="poptip center" data-over-header="Basic Box Score Stats" data-stat="fg3_pct" data-tip="3-Point Field Goal Percentage" scope="col">
+     3P%
+    </th>
+    <th aria-label="Free Throws" class="poptip center" data-over-header="Basic Box Score Stats" data-stat="ft" data-tip="Free Throws" scope="col">
+     FT
+    </th>
+    <th aria-label="Free Throw Attempts" class="poptip center" data-over-header="Basic Box Score Stats" data-stat="fta" data-tip="Free Throw Attempts" scope="col">
+     FTA
+    </th>
+    <th aria-label="Free Throw Percentage" class="poptip center" data-over-header="Basic Box Score Stats" data-stat="ft_pct" data-tip="Free Throw Percentage" scope="col">
+     FT%
+    </th>
+    <th aria-label="Offensive Rebounds" class="poptip center" data-over-header="Basic Box Score Stats" data-stat="orb" data-tip="Offensive Rebounds" scope="col">
+     ORB
+    </th>
+    <th aria-label="Defensive Rebounds" class="poptip center" data-over-header="Basic Box Score Stats" data-stat="drb" data-tip="Defensive Rebounds" scope="col">
+     DRB
+    </th>
+    <th aria-label="Total Rebounds" class="poptip center" data-over-header="Basic Box Score Stats" data-stat="trb" data-tip="Total Rebounds" scope="col">
+     TRB
+    </th>
+    <th aria-label="Assists" class="poptip center" data-over-header="Basic Box Score Stats" data-stat="ast" data-tip="Assists" scope="col">
+     AST
+    </th>
+    <th aria-label="Steals" class="poptip center" data-over-header="Basic Box Score Stats" data-stat="stl" data-tip="Steals" scope="col">
+     STL
+    </th>
+    <th aria-label="Blocks" class="poptip center" data-over-header="Basic Box Score Stats" data-stat="blk" data-tip="Blocks" scope="col">
+     BLK
+    </th>
+    <th aria-label="Turnovers" class="poptip center" data-over-header="Basic Box Score Stats" data-stat="tov" data-tip="Turnovers" scope="col">
+     TOV
+    </th>
+    <th aria-label="Personal Fouls" class="poptip center" data-over-header="Basic Box Score Stats" data-stat="pf" data-tip="Personal Fouls" scope="col">
+     PF
+    </th>
+    <th aria-label="Points" class="poptip center" data-over-header="Basic Box Score Stats" data-stat="pts" data-tip="Points" scope="col">
+     PTS
+    </th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <th class="left" csk="Dantley,Adrian" data-append-csv="dantlad01" data-stat="player" scope="row">
+     <a href="/players/d/dantlad01.html">
+      Adrian Dantley
+     </a>
+    </th>
+    <td class="right" csk="2460" data-stat="mp">
+     41:00
+    </td>
+    <td class="right" data-stat="fg">
+     13
+    </td>
+    <td class="right" data-stat="fga">
+     21
+    </td>
+    <td class="right" data-stat="fg_pct">
+     .619
+    </td>
+    <td class="right iz" data-stat="fg3">
+     0
+    </td>
+    <td class="right iz" data-stat="fg3a">
+     0
+    </td>
+    <td class="right iz" data-stat="fg3_pct">
+    </td>
+    <td class="right" data-stat="ft">
+     14
+    </td>
+    <td class="right" data-stat="fta">
+     16
+    </td>
+    <td class="right" data-stat="ft_pct">
+     .875
+    </td>
+    <td class="right" data-stat="orb">
+     3
+    </td>
+    <td class="right" data-stat="drb">
+     6
+    </td>
+    <td class="right" data-stat="trb">
+     9
+    </td>
+    <td class="right" data-stat="ast">
+     6
+    </td>
+    <td class="right" data-stat="stl">
+     1
+    </td>
+    <td class="right iz" data-stat="blk">
+     0
+    </td>
+    <td class="right iz" data-stat="tov">
+     0
+    </td>
+    <td class="right" data-stat="pf">
+     4
+    </td>
+    <td class="right" data-stat="pts">
+     40
+    </td>
+   </tr>
+   <tr>
+    <th class="left" csk="Griffith,Darrell" data-append-csv="griffda01" data-stat="player" scope="row">
+     <a href="/players/g/griffda01.html">
+      Darrell Griffith
+     </a>
+    </th>
+    <td class="right" csk="2160" data-stat="mp">
+     36:00
+    </td>
+    <td class="right" data-stat="fg">
+     11
+    </td>
+    <td class="right" data-stat="fga">
+     22
+    </td>
+    <td class="right" data-stat="fg_pct">
+     .500
+    </td>
+    <td class="right iz" data-stat="fg3">
+     0
+    </td>
+    <td class="right iz" data-stat="fg3a">
+     0
+    </td>
+    <td class="right iz" data-stat="fg3_pct">
+    </td>
+    <td class="right iz" data-stat="ft">
+     0
+    </td>
+    <td class="right iz" data-stat="fta">
+     0
+    </td>
+    <td class="right iz" data-stat="ft_pct">
+    </td>
+    <td class="right iz" data-stat="orb">
+     0
+    </td>
+    <td class="right" data-stat="drb">
+     3
+    </td>
+    <td class="right" data-stat="trb">
+     3
+    </td>
+    <td class="right" data-stat="ast">
+     4
+    </td>
+    <td class="right iz" data-stat="stl">
+     0
+    </td>
+    <td class="right" data-stat="blk">
+     1
+    </td>
+    <td class="right" data-stat="tov">
+     1
+    </td>
+    <td class="right" data-stat="pf">
+     2
+    </td>
+    <td class="right" data-stat="pts">
+     22
+    </td>
+   </tr>
+   <tr>
+    <th class="left" csk="Drew,John" data-append-csv="drewjo01" data-stat="player" scope="row">
+     <a href="/players/d/drewjo01.html">
+      John Drew
+     </a>
+    </th>
+    <td class="right" csk="2100" data-stat="mp">
+     35:00
+    </td>
+    <td class="right" data-stat="fg">
+     9
+    </td>
+    <td class="right" data-stat="fga">
+     18
+    </td>
+    <td class="right" data-stat="fg_pct">
+     .500
+    </td>
+    <td class="right iz" data-stat="fg3">
+     0
+    </td>
+    <td class="right iz" data-stat="fg3a">
+     0
+    </td>
+    <td class="right iz" data-stat="fg3_pct">
+    </td>
+    <td class="right" data-stat="ft">
+     5
+    </td>
+    <td class="right" data-stat="fta">
+     6
+    </td>
+    <td class="right" data-stat="ft_pct">
+     .833
+    </td>
+    <td class="right" data-stat="orb">
+     4
+    </td>
+    <td class="right" data-stat="drb">
+     2
+    </td>
+    <td class="right" data-stat="trb">
+     6
+    </td>
+    <td class="right" data-stat="ast">
+     2
+    </td>
+    <td class="right" data-stat="stl">
+     1
+    </td>
+    <td class="right iz" data-stat="blk">
+     0
+    </td>
+    <td class="right" data-stat="tov">
+     2
+    </td>
+    <td class="right" data-stat="pf">
+     4
+    </td>
+    <td class="right" data-stat="pts">
+     23
+    </td>
+   </tr>
+   <tr>
+    <th class="left" csk="Green,Rickey" data-append-csv="greenri01" data-stat="player" scope="row">
+     <a href="/players/g/greenri01.html">
+      Rickey Green
+     </a>
+    </th>
+    <td class="right" csk="2100" data-stat="mp">
+     35:00
+    </td>
+    <td class="right" data-stat="fg">
+     9
+    </td>
+    <td class="right" data-stat="fga">
+     12
+    </td>
+    <td class="right" data-stat="fg_pct">
+     .750
+    </td>
+    <td class="right iz" data-stat="fg3">
+     0
+    </td>
+    <td class="right iz" data-stat="fg3a">
+     0
+    </td>
+    <td class="right iz" data-stat="fg3_pct">
+    </td>
+    <td class="right" data-stat="ft">
+     2
+    </td>
+    <td class="right" data-stat="fta">
+     3
+    </td>
+    <td class="right" data-stat="ft_pct">
+     .667
+    </td>
+    <td class="right" data-stat="orb">
+     1
+    </td>
+    <td class="right iz" data-stat="drb">
+     0
+    </td>
+    <td class="right" data-stat="trb">
+     1
+    </td>
+    <td class="right" data-stat="ast">
+     11
+    </td>
+    <td class="right iz" data-stat="stl">
+     0
+    </td>
+    <td class="right iz" data-stat="blk">
+     0
+    </td>
+    <td class="right" data-stat="tov">
+     1
+    </td>
+    <td class="right" data-stat="pf">
+     3
+    </td>
+    <td class="right" data-stat="pts">
+     20
+    </td>
+   </tr>
+   <tr>
+    <th class="left" csk="Eaton,Mark" data-append-csv="eatonma01" data-stat="player" scope="row">
+     <a href="/players/e/eatonma01.html">
+      Mark Eaton
+     </a>
+    </th>
+    <td class="right" csk="1620" data-stat="mp">
+     27:00
+    </td>
+    <td class="right" data-stat="fg">
+     2
+    </td>
+    <td class="right" data-stat="fga">
+     4
+    </td>
+    <td class="right" data-stat="fg_pct">
+     .500
+    </td>
+    <td class="right iz" data-stat="fg3">
+     0
+    </td>
+    <td class="right iz" data-stat="fg3a">
+     0
+    </td>
+    <td class="right iz" data-stat="fg3_pct">
+    </td>
+    <td class="right iz" data-stat="ft">
+     0
+    </td>
+    <td class="right iz" data-stat="fta">
+     0
+    </td>
+    <td class="right iz" data-stat="ft_pct">
+    </td>
+    <td class="right iz" data-stat="orb">
+     0
+    </td>
+    <td class="right" data-stat="drb">
+     7
+    </td>
+    <td class="right" data-stat="trb">
+     7
+    </td>
+    <td class="right" data-stat="ast">
+     3
+    </td>
+    <td class="right iz" data-stat="stl">
+     0
+    </td>
+    <td class="right" data-stat="blk">
+     3
+    </td>
+    <td class="right iz" data-stat="tov">
+     0
+    </td>
+    <td class="right" data-stat="pf">
+     5
+    </td>
+    <td class="right" data-stat="pts">
+     4
+    </td>
+   </tr>
+   <tr class="thead">
+    <th aria-label="Reserves" class="sort_default_asc center" data-stat="player">
+     Reserves
+    </th>
+    <th aria-label="Minutes Played" class="center" data-stat="mp" data-tip="Minutes Played">
+     MP
+    </th>
+    <th aria-label="Field Goals" class="center" data-stat="fg" data-tip="Field Goals">
+     FG
+    </th>
+    <th aria-label="Field Goal Attempts" class="center" data-stat="fga" data-tip="Field Goal Attempts">
+     FGA
+    </th>
+    <th aria-label="Field Goal Percentage" class="center" data-stat="fg_pct" data-tip="Field Goal Percentage">
+     FG%
+    </th>
+    <th aria-label="3-Point Field Goals" class="center" data-stat="fg3" data-tip="3-Point Field Goals">
+     3P
+    </th>
+    <th aria-label="3-Point Field Goal Attempts" class="center" data-stat="fg3a" data-tip="3-Point Field Goal Attempts">
+     3PA
+    </th>
+    <th aria-label="3-Point Field Goal Percentage" class="center" data-stat="fg3_pct" data-tip="3-Point Field Goal Percentage">
+     3P%
+    </th>
+    <th aria-label="Free Throws" class="center" data-stat="ft" data-tip="Free Throws">
+     FT
+    </th>
+    <th aria-label="Free Throw Attempts" class="center" data-stat="fta" data-tip="Free Throw Attempts">
+     FTA
+    </th>
+    <th aria-label="Free Throw Percentage" class="center" data-stat="ft_pct" data-tip="Free Throw Percentage">
+     FT%
+    </th>
+    <th aria-label="Offensive Rebounds" class="center" data-stat="orb" data-tip="Offensive Rebounds">
+     ORB
+    </th>
+    <th aria-label="Defensive Rebounds" class="center" data-stat="drb" data-tip="Defensive Rebounds">
+     DRB
+    </th>
+    <th aria-label="Total Rebounds" class="center" data-stat="trb" data-tip="Total Rebounds">
+     TRB
+    </th>
+    <th aria-label="Assists" class="center" data-stat="ast" data-tip="Assists">
+     AST
+    </th>
+    <th aria-label="Steals" class="center" data-stat="stl" data-tip="Steals">
+     STL
+    </th>
+    <th aria-label="Blocks" class="center" data-stat="blk" data-tip="Blocks">
+     BLK
+    </th>
+    <th aria-label="Turnovers" class="center" data-stat="tov" data-tip="Turnovers">
+     TOV
+    </th>
+    <th aria-label="Personal Fouls" class="center" data-stat="pf" data-tip="Personal Fouls">
+     PF
+    </th>
+    <th aria-label="Points" class="center" data-stat="pts" data-tip="Points">
+     PTS
+    </th>
+   </tr>
+   <tr>
+    <th class="left" csk="Wilkins,Jeff" data-append-csv="wilkije01" data-stat="player" scope="row">
+     <a href="/players/w/wilkije01.html">
+      Jeff Wilkins
+     </a>
+    </th>
+    <td class="right" csk="1260" data-stat="mp">
+     21:00
+    </td>
+    <td class="right" data-stat="fg">
+     5
+    </td>
+    <td class="right" data-stat="fga">
+     10
+    </td>
+    <td class="right" data-stat="fg_pct">
+     .500
+    </td>
+    <td class="right iz" data-stat="fg3">
+     0
+    </td>
+    <td class="right iz" data-stat="fg3a">
+     0
+    </td>
+    <td class="right iz" data-stat="fg3_pct">
+    </td>
+    <td class="right" data-stat="ft">
+     1
+    </td>
+    <td class="right" data-stat="fta">
+     2
+    </td>
+    <td class="right" data-stat="ft_pct">
+     .500
+    </td>
+    <td class="right" data-stat="orb">
+     1
+    </td>
+    <td class="right" data-stat="drb">
+     2
+    </td>
+    <td class="right" data-stat="trb">
+     3
+    </td>
+    <td class="right" data-stat="ast">
+     1
+    </td>
+    <td class="right iz" data-stat="stl">
+     0
+    </td>
+    <td class="right" data-stat="blk">
+     1
+    </td>
+    <td class="right" data-stat="tov">
+     1
+    </td>
+    <td class="right" data-stat="pf">
+     3
+    </td>
+    <td class="right" data-stat="pts">
+     11
+    </td>
+   </tr>
+   <tr>
+    <th class="left" csk="Eaves,Jerry" data-append-csv="eavesje01" data-stat="player" scope="row">
+     <a href="/players/e/eavesje01.html">
+      Jerry Eaves
+     </a>
+    </th>
+    <td class="right" csk="900" data-stat="mp">
+     15:00
+    </td>
+    <td class="right" data-stat="fg">
+     1
+    </td>
+    <td class="right" data-stat="fga">
+     5
+    </td>
+    <td class="right" data-stat="fg_pct">
+     .200
+    </td>
+    <td class="right iz" data-stat="fg3">
+     0
+    </td>
+    <td class="right iz" data-stat="fg3a">
+     0
+    </td>
+    <td class="right iz" data-stat="fg3_pct">
+    </td>
+    <td class="right" data-stat="ft">
+     2
+    </td>
+    <td class="right" data-stat="fta">
+     3
+    </td>
+    <td class="right" data-stat="ft_pct">
+     .667
+    </td>
+    <td class="right iz" data-stat="orb">
+     0
+    </td>
+    <td class="right" data-stat="drb">
+     2
+    </td>
+    <td class="right" data-stat="trb">
+     2
+    </td>
+    <td class="right" data-stat="ast">
+     3
+    </td>
+    <td class="right" data-stat="stl">
+     2
+    </td>
+    <td class="right iz" data-stat="blk">
+     0
+    </td>
+    <td class="right" data-stat="tov">
+     1
+    </td>
+    <td class="right" data-stat="pf">
+     2
+    </td>
+    <td class="right" data-stat="pts">
+     4
+    </td>
+   </tr>
+   <tr>
+    <th class="left" csk="Anderson,J.J." data-append-csv="anderjj01" data-stat="player" scope="row">
+     <a href="/players/a/anderjj01.html">
+      J.J. Anderson
+     </a>
+    </th>
+    <td class="right" csk="660" data-stat="mp">
+     11:00
+    </td>
+    <td class="right iz" data-stat="fg">
+     0
+    </td>
+    <td class="right" data-stat="fga">
+     5
+    </td>
+    <td class="right iz" data-stat="fg_pct">
+     .000
+    </td>
+    <td class="right iz" data-stat="fg3">
+     0
+    </td>
+    <td class="right" data-stat="fg3a">
+     1
+    </td>
+    <td class="right iz" data-stat="fg3_pct">
+     .000
+    </td>
+    <td class="right iz" data-stat="ft">
+     0
+    </td>
+    <td class="right iz" data-stat="fta">
+     0
+    </td>
+    <td class="right iz" data-stat="ft_pct">
+    </td>
+    <td class="right" data-stat="orb">
+     1
+    </td>
+    <td class="right" data-stat="drb">
+     2
+    </td>
+    <td class="right" data-stat="trb">
+     3
+    </td>
+    <td class="right iz" data-stat="ast">
+     0
+    </td>
+    <td class="right" data-stat="stl">
+     1
+    </td>
+    <td class="right" data-stat="blk">
+     2
+    </td>
+    <td class="right iz" data-stat="tov">
+     0
+    </td>
+    <td class="right" data-stat="pf">
+     3
+    </td>
+    <td class="right iz" data-stat="pts">
+     0
+    </td>
+   </tr>
+   <tr>
+    <th class="left" csk="Hansen,Bob" data-append-csv="hansebo01" data-stat="player" scope="row">
+     <a href="/players/h/hansebo01.html">
+      Bob Hansen
+     </a>
+    </th>
+    <td class="right" csk="600" data-stat="mp">
+     10:00
+    </td>
+    <td class="right iz" data-stat="fg">
+     0
+    </td>
+    <td class="right" data-stat="fga">
+     2
+    </td>
+    <td class="right iz" data-stat="fg_pct">
+     .000
+    </td>
+    <td class="right iz" data-stat="fg3">
+     0
+    </td>
+    <td class="right" data-stat="fg3a">
+     1
+    </td>
+    <td class="right iz" data-stat="fg3_pct">
+     .000
+    </td>
+    <td class="right iz" data-stat="ft">
+     0
+    </td>
+    <td class="right iz" data-stat="fta">
+     0
+    </td>
+    <td class="right iz" data-stat="ft_pct">
+    </td>
+    <td class="right iz" data-stat="orb">
+     0
+    </td>
+    <td class="right" data-stat="drb">
+     2
+    </td>
+    <td class="right" data-stat="trb">
+     2
+    </td>
+    <td class="right" data-stat="ast">
+     1
+    </td>
+    <td class="right iz" data-stat="stl">
+     0
+    </td>
+    <td class="right" data-stat="blk">
+     1
+    </td>
+    <td class="right" data-stat="tov">
+     1
+    </td>
+    <td class="right" data-stat="pf">
+     2
+    </td>
+    <td class="right iz" data-stat="pts">
+     0
+    </td>
+   </tr>
+   <tr>
+    <th class="left" csk="Boswell,Tom" data-append-csv="bosweto01" data-stat="player" scope="row">
+     <a href="/players/b/bosweto01.html">
+      Tom Boswell
+     </a>
+    </th>
+    <td class="right" csk="540" data-stat="mp">
+     9:00
+    </td>
+    <td class="right iz" data-stat="fg">
+     0
+    </td>
+    <td class="right" data-stat="fga">
+     1
+    </td>
+    <td class="right iz" data-stat="fg_pct">
+     .000
+    </td>
+    <td class="right iz" data-stat="fg3">
+     0
+    </td>
+    <td class="right iz" data-stat="fg3a">
+     0
+    </td>
+    <td class="right iz" data-stat="fg3_pct">
+    </td>
+    <td class="right" data-stat="ft">
+     1
+    </td>
+    <td class="right" data-stat="fta">
+     2
+    </td>
+    <td class="right" data-stat="ft_pct">
+     .500
+    </td>
+    <td class="right iz" data-stat="orb">
+     0
+    </td>
+    <td class="right" data-stat="drb">
+     1
+    </td>
+    <td class="right" data-stat="trb">
+     1
+    </td>
+    <td class="right" data-stat="ast">
+     1
+    </td>
+    <td class="right" data-stat="stl">
+     1
+    </td>
+    <td class="right iz" data-stat="blk">
+     0
+    </td>
+    <td class="right iz" data-stat="tov">
+     0
+    </td>
+    <td class="right" data-stat="pf">
+     2
+    </td>
+    <td class="right" data-stat="pts">
+     1
+    </td>
+   </tr>
+  </tbody>
+  <tfoot>
+   <tr>
+    <th class="left" data-stat="player" scope="row">
+     Team Totals
+    </th>
+    <td class="right" data-stat="mp">
+     240
+    </td>
+    <td class="right" data-stat="fg">
+     50
+    </td>
+    <td class="right" data-stat="fga">
+     100
+    </td>
+    <td class="right" data-stat="fg_pct">
+     .500
+    </td>
+    <td class="right iz" data-stat="fg3">
+     0
+    </td>
+    <td class="right" data-stat="fg3a">
+     2
+    </td>
+    <td class="right iz" data-stat="fg3_pct">
+     .000
+    </td>
+    <td class="right" data-stat="ft">
+     25
+    </td>
+    <td class="right" data-stat="fta">
+     32
+    </td>
+    <td class="right" data-stat="ft_pct">
+     .781
+    </td>
+    <td class="right" data-stat="orb">
+     10
+    </td>
+    <td class="right" data-stat="drb">
+     27
+    </td>
+    <td class="right" data-stat="trb">
+     37
+    </td>
+    <td class="right" data-stat="ast">
+     32
+    </td>
+    <td class="right" data-stat="stl">
+     6
+    </td>
+    <td class="right" data-stat="blk">
+     8
+    </td>
+    <td class="right" data-stat="tov">
+     7
+    </td>
+    <td class="right" data-stat="pf">
+     30
+    </td>
+    <td class="right" data-stat="pts">
+     125
+    </td>
+   </tr>
+  </tfoot>
+ </table>
+</div>
