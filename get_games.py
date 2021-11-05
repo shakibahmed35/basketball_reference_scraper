@@ -5,7 +5,7 @@ import csv
 type_of_stat = "games"
 months = ["-october", "-november", "-december", "-january", "-february", "-march", "-april", "-may", "-june", "-july"]
 game_urls = []
-year = 1980
+year = 1984
 while year <= 2021:
     for month in months:
         try:
