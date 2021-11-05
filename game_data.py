@@ -2,11 +2,20 @@ import requests
 from bs4 import BeautifulSoup
 import csv
 import pandas as pd
-import os
+from io import StringIO
+import boto3
+
+session = boto3.Session(
+aws_access_key_id='AKIAQRSW4TINAC73XG2U',
+aws_secret_access_key='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'
+)
+
+s3 = session.client('s3')
 
 with open("./game_logs", "r") as f:
     game_urls = list(csv.reader(f))[0]
-game_urls = game_urls[0:2]
+# Delete this when its time
+game_urls = game_urls
 
 # generates headeres given a basic tables header list
 # Simply use code       headers = headers_generate(basic1_rows[1]) for basic// headers = headers_generate(advanced1_rows[1]) for advanced
@@ -48,7 +57,8 @@ for url in game_urls:
     all_tables = soup.find(id="content")
     four_tables = all_tables.find_all(class_="table_container")
 
-
+    if(len(four_tables) != 4):
+        continue
     team1_basic = four_tables[0]
     team1_advanced = four_tables[1]
     team2_basic = four_tables[2]
@@ -59,7 +69,6 @@ for url in game_urls:
     # /boxscores/198310280DEN.html
     date = url[11:19]
     dir_name = team_name_1 + team_name_2 + date
-    os.mkdir(dir_name)
 
     # Team 1
     basic1_rows = team1_basic.find_all("tr")
@@ -81,7 +90,12 @@ for url in game_urls:
     team_1_fn = "./" + dir_name + "/" + team_name_1 + "_box_score.csv"
     t1_df = t1_basic_df.join(t1_advanced_df)
     t1_df.fillna(0, inplace=True)
-    t1_df.to_csv(team_1_fn, index=False)
+    # t1 df now complete
+    t1_csv_buffer = StringIO()
+    t1_df.to_csv(t1_csv_buffer)
+    t1_filename = f'boxscores/{dir_name}/{team_name_1}stats.csv'
+    res = s3.put_object(Body=t1_csv_buffer.getvalue(), Bucket='awscse575', Key=t1_filename)
+
 
     # Team 2
     basic2_rows = team2_basic.find_all("tr")
@@ -103,5 +117,9 @@ for url in game_urls:
     team_2_fn = "./" + dir_name + "/" + team_name_2 + "_box_score.csv"
     t2_df = t2_basic_df.join(t2_advanced_df)
     t2_df.fillna(0, inplace=True)
-    t2_df.to_csv(team_2_fn, index=False)
+    # t2 df now complete
+    t2_csv_buffer = StringIO()
+    t2_df.to_csv(t2_csv_buffer)
+    t2_filename = f'boxscores/{dir_name}/{team_name_2}stats.csv'
+    res = s3.put_object(Body=t2_csv_buffer.getvalue(), Bucket='awscse575', Key=t2_filename)
 
